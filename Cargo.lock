@@ -514,7 +514,7 @@ dependencies = [
  "lazy_static",
  "libc",
  "log",
- "lru",
+ "lru 0.7.1",
  "memmap",
  "nwind",
  "parking_lot 0.11.2",
@@ -611,7 +611,7 @@ dependencies = [
  "lazy_static",
  "libc",
  "log",
- "lru",
+ "lru 0.7.1",
  "lz4-compress",
  "nwind",
  "parking_lot 0.11.2",
@@ -1344,6 +1344,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "lru"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "469898e909a1774d844793b347135a0cd344ca2f69d082013ecb8061a2229a3a"
+dependencies = [
+ "hashbrown 0.11.2",
+]
+
+[[package]]
 name = "lru-cache"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1559,7 +1568,7 @@ dependencies = [
  "goblin",
  "libc",
  "log",
- "lru",
+ "lru 0.6.6",
  "memmap",
  "proc-maps",
  "rustc-demangle",
@@ -2311,7 +2320,7 @@ dependencies = [
  "common",
  "futures",
  "log",
- "lru",
+ "lru 0.7.1",
  "md5",
  "parking_lot 0.11.2",
  "rayon",
